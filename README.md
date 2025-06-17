@@ -1,6 +1,6 @@
 # Sistema de Gestão de Biblioteca
 
-Bem-vindo ao projeto de **Sistema de Gestão de Biblioteca**! Este projeto foi desenvolvido como parte de um desafio da trilha de Java do Ignite. O objetivo é aplicar conceitos fundamentais de Java, incluindo herança, polimorfismo, estruturas de repetição, e manipulação de datas.
+Bem-vindo ao projeto de **Sistema de Gestão de Biblioteca**! O objetivo é aplicar conceitos fundamentais de Java, incluindo herança, polimorfismo, estruturas de repetição, e manipulação de datas.
 
 ## Funcionalidades
 
@@ -14,9 +14,8 @@ O projeto é dividido nas seguintes classes principais:
 
 - **Livro**: Representa os livros na biblioteca, com atributos como `id`, `titulo`, `autor`, `disponivel`, `dataCadastro` e `dataAtualizacao`.
 - **Autor**: Representa os autores dos livros, com atributos como `id`, `nome` e `dataNascimento`.
-- **Emprestimo**: Gerencia os empréstimos de livros, com informações sobre o livro emprestado e datas de empréstimo e devolução.
-- **Biblioteca**: Gerencia a coleção de livros, autores e empréstimos.
-
+- **Biblioteca**: Gerencia a coleção de livros, autores, empréstimos e clientes do sistema.
+- **Cliente**: Representa os clientes do sistema, com atributos `livroPego`, `nome`, `idade` e `id`.
 ## Requisitos
 
 - **Java Development Kit (JDK)** 8 ou superior
