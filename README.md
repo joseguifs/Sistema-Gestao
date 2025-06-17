@@ -16,6 +16,7 @@ O projeto é dividido nas seguintes classes principais:
 - **Autor**: Representa os autores dos livros, com atributos como `id`, `nome` e `dataNascimento`.
 - **Biblioteca**: Gerencia a coleção de livros, autores, empréstimos e clientes do sistema.
 - **Cliente**: Representa os clientes do sistema, com atributos `livroPego`, `nome`, `idade` e `id`.
+- **Auxiliar**: Classe para nos ajudar a ter mais precisão no cálculo da idade. 
 ## Requisitos
 
 - **Java Development Kit (JDK)** 8 ou superior
